@@ -40,7 +40,7 @@
     [self performSelector:@selector(source3Working) onThread:_zyThread withObject:nil waitUntilDone:NO];
 
 }
-
+  
 - (void)source3Working{
     _zyThread.continued = NO;
 }
